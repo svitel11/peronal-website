@@ -1,0 +1,253 @@
+title = "Home"
+url = "/"
+layout = "default"
+skills = "test";
+==
+<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+    <div class="my-auto">
+        <h1 class="mb-0">Samuel
+            <span class="text-primary">Vitel</span>
+        </h1>
+        <div class="subheading mb-5">Vienna, Austria ·
+            <a href="mailto:samuel@vitel.at">samuel@vitel.at</a>
+        </div>
+        <div class="lead mb-5">Hi, I'm glad you're here!</br>
+            I'm Samuel, 31 years old living in Vienna, Austria and I'm a passionate web developer.
+            Programming means professional development for me.
+            With each new project I learn something new and it makes me better and ready for the next project, which is
+            why I love my job.
+            </p>
+            <div class="social-icons">
+                {% if this.theme.linkedin_url|trim %}
+                <a href="{{ this.theme.linkedin_url|trim }}" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                {% endif %}
+                {% if this.theme.github_url|trim %}
+                <a href="{{ this.theme.github_url|trim }}" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                {% endif %}
+                {% if this.theme.twitter_url|trim %}
+                <a href="{{ this.theme.twitter_url|trim }}" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                {% endif %}
+                {% if this.theme.facebook_url|trim %}
+                <a href="{{ this.theme.facebook_url|trim }}" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                {% endif %}
+            </div>
+        </div>
+</section>
+
+<hr class="m-0">
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+    <div class="my-auto">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+                <h3 class="mb-0">Web Developer</h3>
+                <div class="subheading mb-3">Österreichische Rundfunksender GmbH & Co KG</div>
+                <p>** Checking and testing online advertising material for the functionality and requirements of
+                    advertising media and IAB standards
+                    (including appropriate feedback)</p>
+                <p>** Preparation of the promotional code for use via the ad server</p>
+                <p>** Connection of media / new platforms to the Adserver (AdTagging)</p>
+                <p>** New developments of delivery codes and templates</p>
+                <p>** Optimization and adaptation of existing code templates</p>
+                <p>** Error analysis in the delivery and, if necessary, programmatic correction</p>
+                <p>** Support for special delivery requirements from online advertising</p>
+                <p>** Support the ad operation team in all technical Affairs</p>
+                <p>** Creation / further development of user interfaces based on APIs</p>
+                <p>** Creation of technical concepts in the department</p>
+                <p>** Perception of the administrative tasks associated with the task</p>
+            </div>
+            <div class="resume-date text-md-right">
+                <span class="text-primary">October 2018 - Present</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<hr class="m-0">
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+    <div class="my-auto">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+                <h3 class="mb-0">SAE Institute, Vienna</h3>
+                <div class="subheading mb-3">DIPLOMA in Webdesign & Development</div>
+                <div>Web Essentials</div>
+                <div>Front-end Development</div>
+                <div>Interaction Design</div>
+                <div>Database and Back-end Development</div>
+                <div>Web Applications</div>
+                <div>Online Marketing and Project Management</div>
+                <div>Term Paper</div>
+                <div>Final Exam</div>
+            </div>
+            <div class="resume-date text-md-right">
+                <span class="text-primary">March 2017 - February 2020</span>
+            </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+                <h3 class="mb-0">WIFI, Vienna</h3>
+                <div class="subheading mb-3">Web Developer - Web Services with PHP/Mysql</div>
+                <div>Programming with PHP</div>
+                <div>SQL-Databases</div>
+                <div>Develop web applications with PHP and MySQL</div>
+            </div>
+            <div class="resume-date text-md-right">
+                <span class="text-primary">February 2016 - June 2016</span>
+            </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+                <h3 class="mb-0">High school "Dimitrie Negreanu", Botosani, Romania</h3>
+                <div class="subheading mb-3">Graduated Mechatronic Technician</div>
+            </div>
+            <div class="resume-date text-md-right">
+                <span class="text-primary">September 2004 - July 2008</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<hr class="m-0">
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+    <div class="my-auto">
+        <h2 class="mb-5">Skills</h2>
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+
+        <div id="skillsDiv"></div>
+
+
+        <!--<div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+            <li>
+                <i class="fa-li fa fa-check"></i>
+                Mobile-First, Responsive Design
+            </li>
+            <li>
+                <i class="fa-li fa fa-check"></i>
+                Cross Browser Testing &amp; Debugging
+            </li>
+            <li>
+                <i class="fa-li fa fa-check"></i>
+                Cross Functional Teams
+            </li>
+            <li>
+                <i class="fa-li fa fa-check"></i>
+                Agile Development &amp; Scrum
+            </li>
+        </ul>-->
+    </div>
+</section>
+
+<hr class="m-0">
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+    <div class="my-auto">
+        <h2 class="mb-5">Interests</h2>
+        <p>Apart from being a web developer, I am the husband and father of 4 children, which takes up a lot of my time. &#128516;</p>
+        <p class="mb-0">However, I like football, to play and watch on TV.</p>
+        <p class="mb-0">I like nature and when I have the opportunity I go for walks with my family in parks with a lot of green space or preferably as far away from the city as possible.</p>
+        <p>I go out with friends in the city, I like to keep friendships and have many friends.</p>
+    </div>
+</section>
+
+<hr class="m-0">
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+    <div class="my-auto">
+        <h2 class="mb-5">Portofolio</h2>
+        <div id="portofolio"></div>
+    </div>
+</section>
+
+<script>
+    var skills = [
+        "html-css.png",
+        "php.png",
+        "mysql.svg",
+        "js.png",
+        "vuejs.png",
+        "nodejs.png",
+        "scss.png",
+        "laravel.png",
+        "lumen.png",
+        "october.png",
+        "linux.png",
+        "api.png",
+        "aws.png",
+        "terminal.png",
+        "git.png"
+    ];
+
+    var portofolio = [
+        {
+            url: "https://www.stabi.at/shop",
+            img: "stabi.gif"
+        },
+        {
+            url: "https://greatmission.eu",
+            img: "eam.gif"
+        },
+        {
+            url: "https://from-to.online",
+            img: "from-to.gif"
+        },
+    ]
+
+    function appendSkill(src, div) {
+        var el = document.createElement('img');
+        el.src = "themes/rds-startbootstrap-resume/assets/images/skills/" + src;
+        el.height = 80;
+        el.style = "margin: 10px 20px";
+        div.appendChild(el);
+    }
+
+    function appendProject(img, url, div) {
+        var src = img;
+        var el = document.createElement('div');
+            el.className = 'mb-5';
+            el.style = "display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; justify-content: space-between;"
+        var img = document.createElement('img');
+            img.src = "themes/rds-startbootstrap-resume/assets/images/projects/" + src;
+            img.width = 400;
+        var a = document.createElement('a');
+            a.href = url;
+            a.target = "_blank";
+            a.innerText = url;
+        el.appendChild(img);
+        el.appendChild(a);
+        div.appendChild(el);
+    }
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+        var skillsDiv       = document.getElementById("skillsDiv");
+        var portofolioDiv   = document.getElementById('portofolio');
+
+        for (let i = 0; i < skills.length; i++) {
+            appendSkill(skills[i], skillsDiv);
+        }
+
+        for (let i = 0; i < portofolio.length; i++) {
+            appendProject(portofolio[i].img, portofolio[i].url, portofolioDiv);
+        }
+    })
+
+</script>
